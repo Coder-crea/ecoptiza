@@ -63,7 +63,7 @@ const Home = () => {
       </div>
 
       {/* Продукция */}
-      <div className="products">
+      {/* <div className="products">
         <h2>Наша продукция</h2>
         <div className="products-grid">
           <div className="product-card">
@@ -85,7 +85,7 @@ const Home = () => {
             <span className="price">750 ₽/кг</span>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* О нас */}
       <div className="about">

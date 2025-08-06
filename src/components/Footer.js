@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
+// import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 import { GiChicken } from "react-icons/gi";
 const Footer = () => {
   return (
@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
 
         {/* Контакты */}
-        <div className="footer-contact">
+        {/* <div className="footer-contact">
           <h4>Контакты</h4>
           <ul>
             <li>
@@ -34,7 +34,7 @@ const Footer = () => {
               <FaEnvelope /> info@ecopchica.ru
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Навигация */}
         <div className="footer-links">
@@ -56,6 +56,17 @@ const Footer = () => {
       {/* Копирайт */}
       <div className="footer-bottom">
         <p>© 2025 Экоптица. Все права защищены.</p>
+        <p>
+          Проект реализован при поддержке{" "}
+          <a
+            href="https://foresat.tilda.ws/ "
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            Фонда содействия инновациям
+          </a>
+        </p>
       </div>
     </footer>
   );
