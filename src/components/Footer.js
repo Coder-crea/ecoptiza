@@ -59,7 +59,7 @@ const Footer = () => {
         <p>
           Проект реализован при поддержке{" "}
           <a
-            href="https://foresat.tilda.ws/ "
+            href="https://fasie.ru/"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-link"
