@@ -43,9 +43,9 @@ const Footer = () => {
             <li>
               <a href="/">Главная</a>
             </li>
-            <li>
+            {/* <li>
               <a href="/map">На карте</a>
-            </li>
+            </li> */}
             <li>
               <a href="/contacts">Контакты</a>
             </li>

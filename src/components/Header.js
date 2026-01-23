@@ -17,7 +17,7 @@ const Header = () => {
       {/* Навигация (десктоп) */}
       <nav className="desktop-nav">
         <Link to="/">Главная</Link>
-        <Link to="/map">На карте</Link>
+        {/* <Link to="/map">На карте</Link> */}
         <Link to="/contacts">Контакты</Link>
       </nav>
 

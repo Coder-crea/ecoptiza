@@ -39,14 +39,14 @@ const Contacts = () => {
 
           {/* WhatsApp */}
           <a
-            href="https://wa.me/79991234567"
+            href="https://wa.me/89389077131"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-card whatsapp"
           >
             <FaWhatsapp className="icon" />
             <h3>WhatsApp</h3>
-            <p>+7 999 123-45-67</p>
+            <p>8 938-907-71-31</p>
           </a>
 
           {/* Email */}
@@ -60,12 +60,12 @@ const Contacts = () => {
           <a href="tel:+79991234567" className="contact-card phone">
             <FaPhoneAlt className="icon" />
             <h3>Телефон</h3>
-            <p>+7 999 123-45-67</p>
+            <p>8 938-907-71-31</p>
           </a>
         </div>
 
         {/* Карта (опционально) */}
-        <div className="map-container">
+        {/* <div className="map-container">
           <h3>Наша ферма</h3>
           <iframe
             src="https://yandex.ru/map-widget/v1/?um=constructor%3A5306726af532de89a8c4c547089e521f708106193625f5c6c437f316bfb5b140&amp;source=constructor"
@@ -75,7 +75,7 @@ const Contacts = () => {
             title="Местоположение фермы Экоптица"
             loading="lazy"
           ></iframe>
-        </div>
+        </div> */}
       </div>
     </section>
   );

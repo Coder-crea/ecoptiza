@@ -107,7 +107,7 @@ const Home = () => {
       </div>
 
       {/* Отзывы */}
-      <div className="reviews">
+      {/* <div className="reviews">
         <h2>Отзывы наших клиентов</h2>
         <div className="reviews-grid">
           <div className="review-card">
@@ -165,7 +165,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* CTA — призыв к действию */}
       <div className="cta-section">
