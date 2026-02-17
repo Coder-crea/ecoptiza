@@ -1,7 +1,7 @@
 import React from "react";
 import { useLayoutEffect } from "react";
 import {
-  FaTelegramPlane,
+  // FaTelegramPlane,
   FaWhatsapp,
   FaEnvelope,
   FaPhoneAlt,
