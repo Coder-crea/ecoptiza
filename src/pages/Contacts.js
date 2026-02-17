@@ -26,7 +26,7 @@ const Contacts = () => {
 
         <div className="contact-cards">
           {/* Telegram */}
-          <a
+          {/* <a
             href="https://t.me/your_username"
             target="_blank"
             rel="noopener noreferrer"
@@ -35,7 +35,7 @@ const Contacts = () => {
             <FaTelegramPlane className="icon" />
             <h3>Telegram</h3>
             <p>@your_username</p>
-          </a>
+          </a> */}
 
           {/* WhatsApp */}
           <a
@@ -53,7 +53,7 @@ const Contacts = () => {
           <a href="mailto:info@ecoptitsa.ru" className="contact-card email">
             <FaEnvelope className="icon" />
             <h3>Email</h3>
-            <p>info@ecoptitsa.ru</p>
+            <p>ecoptica.s1@gmail.com</p>
           </a>
 
           {/* Телефон */}
