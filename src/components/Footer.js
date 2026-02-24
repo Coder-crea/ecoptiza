@@ -36,14 +36,13 @@ const Footer = () => {
         <div className="footer-partners">
           <h4>При поддержке</h4>
           <div className="partner-content">
-            <a
-              href="https://fasie.ru/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="partner-link"
-            >
-              Фонд содействия инновациям
-            </a>
+            <text className="partner-link">
+              Проект создан при поддержке Федерального государственного
+              бюджетного учреждения "Фонд содействия развитию малых форм
+              предприятий в научно-технической сфере" в рамках программы
+              "Студенческий стартап" федерального проекта "Платформа
+              университетского технологического предпринимательства"
+            </text>
             <div className="partner-logo-box">
               <img src={Logo} alt="Логотип Фонда содействия инновациям" />
             </div>
