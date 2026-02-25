@@ -18,7 +18,7 @@ const Header = () => {
       <nav className="desktop-nav">
         <Link to="/">Главная</Link>
         {/* <Link to="/map">На карте</Link> */}
-        <Link to="/contacts">Контакты</Link>
+        {/* <Link to="/contacts">Контакты</Link> */}
       </nav>
 
       {/* Бургер-иконка (мобильная) */}
@@ -34,12 +34,12 @@ const Header = () => {
         <Link to="/" onClick={() => setIsMenuOpen(false)}>
           Главная
         </Link>
-        <Link to="/map" onClick={() => setIsMenuOpen(false)}>
+        {/* <Link to="/map" onClick={() => setIsMenuOpen(false)}>
           На карте
-        </Link>
-        <Link to="/contacts" onClick={() => setIsMenuOpen(false)}>
+        </Link> */}
+        {/* <Link to="/contacts" onClick={() => setIsMenuOpen(false)}>
           Контакты
-        </Link>
+        </Link> */}
       </nav>
 
       {/* Фон при открытом меню */}

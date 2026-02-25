@@ -26,9 +26,9 @@ const Footer = () => {
             <li>
               <a href="/">Главная</a>
             </li>
-            <li>
+            {/* <li>
               <a href="/contacts">Контакты</a>
-            </li>
+            </li> */}
           </ul>
         </div>
 
@@ -53,12 +53,12 @@ const Footer = () => {
       {/* Копирайт и юридическая информация */}
       <div className="footer-bottom">
         <div className="legal-info">
-          <p>© 2025 Экоптица. Все права защищены.</p>
           <p>ООО «ЭКОПТИЦА»</p>
-          <p>ecoptica.s1@gmail.com</p>
           <p className="legal-address">
             Юр. адрес: Пензенская область, г. Никольск, ул. Октябрьская, д. 120
           </p>
+          <p>ecoptica.s1@gmail.com</p>
+          <p>8 938-907-71-31</p>
         </div>
       </div>
     </footer>
