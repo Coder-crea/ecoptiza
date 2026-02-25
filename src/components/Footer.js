@@ -55,6 +55,7 @@ const Footer = () => {
         <div className="legal-info">
           <p>© 2025 Экоптица. Все права защищены.</p>
           <p>ООО «ЭКОПТИЦА»</p>
+          <p>ecoptica.s1@gmail.com</p>
           <p className="legal-address">
             Юр. адрес: Пензенская область, г. Никольск, ул. Октябрьская, д. 120
           </p>
